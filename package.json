@@ -8,8 +8,7 @@
   },
   "scripts": {
     "start:server": "babel-node src/server/index.js",
-    "start:client": "babel-node src/client/index.js",
-    "start": "npm start:server && npm start:client"
+    "start:client": "babel-node src/client/index.js"
   },
   "keywords": [],
   "author": "",
