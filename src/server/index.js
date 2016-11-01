@@ -20,7 +20,7 @@ io.on('connection', socket => {
   });
 });
 
-const { port } = config;
+const port = process.env.PORT || config.port;
 app.listen(port, () => {
   console.log(`Listening on port: ${port}`);
 });
