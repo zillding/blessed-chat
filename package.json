@@ -12,9 +12,16 @@
     "client:prod": "NODE_ENV=production node src/client/index.js",
     "start": "npm run client:dev"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "blessed",
+    "chat",
+    "terminal"
+  ],
+  "author": "Zill Ding",
   "license": "ISC",
+  "engines": {
+    "node": "6.9.1"
+  },
   "devDependencies": {
     "eslint": "^3.9.0",
     "eslint-config-airbnb-base": "^9.0.0",
