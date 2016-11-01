@@ -5,7 +5,10 @@ const config = require('../config');
 
 const startChat = require('./startChat');
 
-const socket = io(`http://localhost:${config.port}`);
+const address = process.env.NODE_ENV === 'production' ?
+  'https://blessed-chat.herokuapp.com/' :
+  `http://localhost:${config.port}`;
+const socket = io(address);
 
 const screen = blessed.screen({
   smartCSR: true,
