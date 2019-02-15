@@ -23,13 +23,13 @@
     "node": "^6.9.1"
   },
   "devDependencies": {
-    "eslint": "^3.9.0",
-    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.0.1"
   },
   "dependencies": {
     "blessed": "^0.1.81",
-    "socket.io": "^1.5.1",
-    "socket.io-client": "^1.5.1"
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
   }
 }
