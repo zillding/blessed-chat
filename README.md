@@ -1,5 +1,7 @@
 # Blessed Chat
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zillding/blessed-chat.svg)](https://greenkeeper.io/)
+
 A simple chat application in terminal
 
 ## Get Started
